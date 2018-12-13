@@ -1,3 +1,3 @@
-module BusinessCalendar
+module BusinessDay
   VERSION = "1.15.0"
 end

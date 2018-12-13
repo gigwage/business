@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'business_calendar/version'
+require 'business_day/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "business"
-  spec.version       = BusinessCalendar::VERSION
+  spec.version       = BusinessDay::VERSION
   spec.authors       = ["Harry Marr"]
   spec.email         = ["developers@gocardless.com"]
   spec.summary       = %q{Date calculations based on business calendars}
