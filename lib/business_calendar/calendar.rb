@@ -1,6 +1,6 @@
 require 'yaml'
 
-module Business
+module BusinessCalendar
   class Calendar
     class << self
       attr_accessor :additional_load_paths
