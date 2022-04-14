@@ -14,7 +14,7 @@ module BusinessDay
 
     def self.load(calendar)
       directory = calendar_directories.find do |dir|
-        File.exists?(File.join(dir, "#{calendar}.yml"))
+        File.exist?(File.join(dir, "#{calendar}.yml"))
       end
       raise "No such calendar '#{calendar}'" unless directory
 
