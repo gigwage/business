@@ -1,0 +1,19 @@
+working_days:
+  - monday
+  - tuesday
+  - wednesday
+  - thursday
+  - friday
+
+holidays:
+  - January 1st, 2024
+  - January 15th, 2024
+  - February 19th, 2024
+  - May 27th, 2024
+  - June 19th, 2024
+  - July 4th, 2024
+  - September 2nd, 2024
+  - October 14th, 2024
+  - November 11th, 2024
+  - November 28th, 2024
+  - December 25th, 2025
